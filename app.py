@@ -8,7 +8,7 @@ import streamlit as st
 IMAGE_SIZE = (128, 128)  # Resize all images to this size
 
 # Load the pre-trained model
-model = tf.keras.models.load_model("finalized_model.sav")
+model = tf.keras.models.load_model("license_plate_model.h5")
 
 # Preprocessing function for image
 def preprocess_image(image):
